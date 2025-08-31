@@ -1,7 +1,104 @@
 <!DOCTYPE html>
-<html>
-    <title> the first webpage</title>
-    <h1>I'm budding the software engineer</h1>
-    <p>this is my first git</p>
-    <ui:include src="resume.html" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naniprasad Macharla - Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f4f4f4; color: #222; margin: 0; }
+    .container { max-width: 800px; margin: 30px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #aad7ee36; padding: 40px; }
+    h1 { font-size: 2.5rem; color: #0077cc; margin-bottom: 0; }
+    .contact { font-size: 1.05rem; margin-bottom: 14px; }
+    a { color: #0077cc; text-decoration: none; }
+    section { margin-top: 32px; }
+    h2 { font-size: 1.3rem; color: #0077cc; border-bottom: 1px solid #eaf1f6; padding-bottom: 6px; margin-bottom: 18px;}
+    ul, .details { margin: 0 0 8px 18px; padding: 0; }
+    .details { margin-bottom: 24px; }
+    .item-head { font-weight: 600; }
+    .skill-list, .cert-list { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; margin: 0; padding: 0;}
+    .skill-list li, .cert-list li { background: #eaf7fd; color: #0077cc; border-radius: 4px; padding: 6px 12px; font-size: 0.95em;}
+    .footer { margin-top: 32px; text-align: center; color: #888; font-size: 0.9em;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Naniprasad Macharla</h1>
+    <div class="contact">
+      <span><i class="fa-solid fa-phone"></i> +91 9014920173</span> |
+      <span><i class="fa-solid fa-envelope"></i> naniprasadmacharla@gmail.com</span> |
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+      <a href="https://www.github.com/Naniprasad2227" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+    <p><em>Seeking a challenging position where I can utilize my skills and contribute to company growth.</em></p>
+    <section>
+      <h2>Education</h2>
+      <div class="details"><span class="item-head">SR University</span><br />
+        B.Tech in CSE (Present) &ndash; GPA: 7.44 (2nd Year 2nd Sem), Avg: 7.5<br />
+        Warangal, Telangana
+      </div>
+      <div class="details"><span class="item-head">SVS Group of Institutions</span><br />
+        Diploma in CSE (2021-2024) &ndash; CGPA: 9.02/10<br />
+        Warangal, Telangana
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>C</li>
+        <li>Numpy</li>
+        <li>Pandas</li>
+        <li>Seaborn</li>
+        <li>Matplotlib</li>
+        <li>Scipy</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>GitHub</li>
+        <li>DSA</li>
+        <li>DBMS</li>
+        <li>Data Mining</li>
+      </ul>
+      <div style="margin-top:8px;">
+        <strong>Currently Learning:</strong> NLP, Cloud Computing (AWS), Software Engineering and System Design
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="details">
+        <span class="item-head">Fresh Harvest - Online Vegetable Ordering</span><br />
+        Technologies: HTML, CSS, JS<br />
+        - Designed a responsive UI and implemented features like form validation, dynamic menu, and shopping cart using JavaScript.<br />
+        - Optimized for real-time user experience and performance.
+      </div>
+      <div class="details">
+        <span class="item-head">Regression and Classification in Data Mining</span><br />
+        Technologies: Python, Scikit-learn, Pandas<br />
+        - Developed predictive models using supervised learning.<br />
+        - Used metrics (accuracy, precision, RMSE); visualized with Seaborn.<br />
+        - Extracted insights from real-world datasets.
+      </div>
+    </section>
+
+    <section>
+      <h2>Certificates</h2>
+      <ul class="cert-list">
+        <li>Web Development</li>
+        <li>Python Programming</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Hobbies</h2>
+      <div>&#9812; Playing Chess | &#127951; Cricket | &#127916; Watching Movies</div>
+    </section>
+
+    <div class="footer">
+      &copy; 2025 Naniprasad Macharla | All Rights Reserved
+    </div>
+  </div>
+</body>
 </html>
